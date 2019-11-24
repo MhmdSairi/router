@@ -5,7 +5,7 @@ This directory traversal exploit was discovered by [Kyle Lovette](https://packet
 
 By default, the web configuration page can be accessed at http://dlinkap/. However, this can be changed by the administrator.
 
-For ease-of-use, I have created dapbrowser.html. It a simple html/js page that allows you to browse the filesystem of the device simply by entering a path.
+For ease-of-use, I have created [dapbrowser.html](https://pigpog.github.io/DAP-1320/dapbrowser.html). It a simple html/js page that allows you to browse the filesystem of the device simply by entering a path.
 
 ### Findings
 The list of valid paths that I've discovered can be found in directories.txt.
