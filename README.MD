@@ -5,7 +5,9 @@ This directory traversal exploit was discovered by [Kyle Lovette](https://packet
 
 By default, the web configuration page can be accessed at http://dlinkap/. However, this can be changed by the administrator.
 
-For ease-of-use, I have created dapbrowser.html. It a simple html/js page that allows you to browse the filesystem of the device simply by entering a path.
+For ease-of-use, I have created [dapbrowser.html](dapbrowser.html). It a simple html/js page that allows you to browse the filesystem of the device simply by entering a path.
+
+I have also created [dapcurl.sh](dapcurl.sh), a simple shell script that uses cURL to download files locally.
 
 ### Findings
 The list of valid paths that I've discovered can be found in directories.txt.
@@ -22,3 +24,5 @@ The following directories provide information about the processor, RAM and opera
 - /proc/sys/kernel/domainname
 
 The /www/ directory contains the web configuration client files.
+
+/var/log/messages_full is the system's log file.
