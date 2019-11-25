@@ -4,6 +4,7 @@
 /bin/umount
 /bin/mount
 /bin/ash
+/bin/busybox
 
 /sbin/
 /sbin/reboot
@@ -27,7 +28,9 @@
 /lib/libsutil.so
 /lib/libcrypt.so.0
 /lib/libgcc_s.so
+/lib/devnvram.ko
 
+/proc/mtd
 /proc/net/if_inet6
 /proc/partitions
 /proc/vmstat
@@ -47,8 +50,10 @@
 /proc/sys/kernel/osrelease
 /proc/sys/kernel/version
 /proc/sys/kernel/domainname
+/proc/sys/net/ipv4/tcp_timestamps
 /proc/net/route
 /proc/net/ipv6_route
+/proc/net/dev
 
 /etc/securetty
 /etc/passwd
@@ -57,6 +62,8 @@
 /etc/resolv.conf
 /etc/hosts
 /etc/inittab
+/etc/rc.d/rcS
+/etc/sysconfig/
 
 /www/wds_scan.xml
 /www/device_status.xml
