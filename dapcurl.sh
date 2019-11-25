@@ -1,13 +1,13 @@
 #!/bin/sh
 
-if [ -z "$1" ] || [ -z "$2" ]; then
-	echo "Syntax error. Correct syntax: $0 FILEPATH OUTPATH [HOST]"
-	exit 1;
-fi
-
 if [ "$1" = "help" ]; then
 	echo "Help!"
 	exit;
+fi
+
+if [ -z "$1" ] || [ -z "$2" ]; then
+	echo "Syntax error. Correct syntax: $0 FILEPATH OUTPATH [HOST]"
+	exit 1;
 fi
 
 if [ -z "$3" ]; then
