@@ -1,7 +1,7 @@
 # DAP-1320 Exploits
 Useful scripts for exploiting the D-Link DAP-1320 Wi-Fi Range Extender.
 ## Directory Traversal
-This directory traversal exploit was discovered by [Kyle Lovette](https://packetstormsecurity.com/files/126219/dlinkdap1320-traversalxss.txt). It does not require administrator privileges over the device. The only requirement is that you can access the configuration page.
+This directory traversal exploit was discovered by [Kyle Lovett](https://packetstormsecurity.com/files/126219/dlinkdap1320-traversalxss.txt). It does not require administrator privileges over the device. The only requirement is that you can access the configuration page.
 
 By default, the web configuration page can be accessed at http://dlinkap/. However, this can be changed by the administrator.
 
